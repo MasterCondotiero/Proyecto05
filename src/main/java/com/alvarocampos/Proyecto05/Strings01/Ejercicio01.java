@@ -17,9 +17,9 @@ public class Ejercicio01 {
         String frase = sc.nextLine();
 
         while (!texto){
-            if (frase.isEmpty()){
+            if (frase.isEmpty() || frase.matches("0-9")){
                 texto =false;
-                System.out.println("No me has pasado nada.");
+                System.out.println("No me has pasado ningun texto.");
                 System.out.println("Vuelva a pasarme la frase que quieres, pero ahora escribe algo");
                 frase = sc.nextLine();
             } else {
