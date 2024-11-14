@@ -16,7 +16,6 @@ public class Ejercicio09 {
         }
         return resultado.toString().trim();
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean textoValido = false;
