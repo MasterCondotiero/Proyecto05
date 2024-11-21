@@ -25,7 +25,7 @@ public class Ejercicio15 {
 
         // Solicitar el caracter
         System.out.print("Introduce el caracter para dibujar el rectangulo: ");
-        char caracter = sc.next().charAt(0);  // Lee el primer carácter de la entrada
+        char caracter = sc.next().charAt(0);  // Lee el primer caracter que introduces
 
         // Llamar metodo
         dibujarRectangulo(ancho, alto, caracter);
