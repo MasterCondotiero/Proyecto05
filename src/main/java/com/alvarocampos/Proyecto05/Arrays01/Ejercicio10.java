@@ -1,4 +1,4 @@
-package com.alvarocampos.Proyecto05.Arrays;
+package com.alvarocampos.Proyecto05.Arrays01;
 
 import java.util.Scanner;
 
